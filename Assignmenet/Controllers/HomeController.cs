@@ -18,7 +18,7 @@ namespace Assignmenet.Controllers
         public ActionResult Lastpage()
         {
 
-            TempData["A"] = TempData["Id"];
+            
             return View();
         }
     }
