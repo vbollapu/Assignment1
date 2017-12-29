@@ -12,13 +12,12 @@ namespace Assignmenet.Controllers
         public ActionResult Index(int? id)
         {
             TempData["Id"] = id;
+            TempData.Keep("Id");
             return View();
         }
 
         public ActionResult Lastpage()
         {
-
-            
             return View();
         }
     }
