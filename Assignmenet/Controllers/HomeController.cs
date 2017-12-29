@@ -8,7 +8,7 @@ namespace Assignmenet.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+       
         public ActionResult Index(int? id)
         {
             TempData["Id"] = id;
